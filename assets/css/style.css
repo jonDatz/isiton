@@ -1,0 +1,82 @@
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 174, 255), rgb(6, 247, 146));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#p {
+
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbarStyle {
+
+}
+
+
+
+.isItOnLogo {
+    font-size: 36px;
+    padding-left: 35px;
+    color: #FF6666;
+    font-family: 'Poppins', sans-serif;
+}
+
+#collector {
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 26px;
+}
+
+#buttonBox {
+    margin: 40px 20px 5px 20px;
+    padding: 20px 5px 20px 5px;
+    background-color: rgba(242, 248, 253, .5);
+    text-align: center;
+    border-radius: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#gifBox {
+    margin: 5px 20px 40px 20px;
+    padding: 20px 5px 20px 5px;
+    background-color: rgba(46, 46, 46, 0.5);
+    /* text-align: center; */
+    border-radius: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.gifImages {
+    float: left;
+    border-radius: 1px;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+.showButtons {
+    margin: 4px;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-brand .giphyLogo {
+        text-align: center;
+    }
+}
